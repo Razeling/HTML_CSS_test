@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+nav, header {
+    padding: 3em 1em 1em 0.3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 87vw;
+    margin: 0 auto;
+}
+nav h5 {
+    text-transform: uppercase;
+    color: rgba(255,82,165,255);
+}
+nav h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+nav p {
+    color: gray;
+    margin-bottom: 3em;
+}
+.navText {
+    margin-bottom: 5em;
+    max-width: 50vw;
+}
+header ul{
+    display: none;
+    flex-direction: row;
+    justify-content: end;
+    gap: 4em;
+    list-style: none;
+    padding-left: 0;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+.SignUp {
+    color: rgba(255,82,165,255);
+}
+button {
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #e76792, #d1831d);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    border-radius: 30px 30px 30px 30px;
+    padding: 1em;
+    width: 10em;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
+.graphic {
+    position: absolute;
+    max-width: 85vw;
+    left: 10em;
+    bottom: 16em;
+}
+.main-container {
+    text-align: justify;
+    height: 400px;
+    margin-top: 3em;
+    padding-top: 14em;
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+.main-container p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+.companies1, .companies2{
+    display: flex;
+    padding-top: 1.5em;
+    justify-content: space-between;
+}
+.OpenDoor {
+    display: none;
+}
+.market{
+    padding: 2em;
+    max-width: 88vw;
+}
+.market h1 {
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.market a {
+    text-decoration: underline;
+    color: black;
+}
+.nfts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.5em;
+    margin-bottom: 5em;
+}
+.purpleMan, .Beige, .RedMan, .Green {
+    width: 290px;
+    border-radius: 15px;
+    background-color: lightgray;
+    margin-top: 3em;
+}
+.nftContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1em;
+}
+.nftContainer div:nth-child(1) {
+    text-align: start;
+}
+.nftContainer div:nth-child(2) {
+    text-align: end;
+}
+.nftContainer p {
+    font-size: 18px;
+    color: gray;
+}
+.nftContainer h4 {
+    text-align: left;
+    margin: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#gloop {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: orange;  
+}
+#topBid {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: gray;
+}
+#eth{
+    height: 15px;
+}
+.upsell {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 20em 2em 14.4em 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+.upsell h5 {
+    text-transform: uppercase;
+    color: rgba(255,82,165,255);
+}
+.upsell h1 {
+    font-size: 34px;
+    font-weight: bolder;
+}
+.upsell p {
+    color: gray;
+}
+.upsellImg {
+    width: 30vw;
+}
+.upsellText {
+    width: 30vw;
+    margin-bottom: 10em;
+}
+.icons {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    padding: 2em;
+}
+footer h5 {
+    text-transform: uppercase;
+}
+footer p {
+    text-transform: capitalize;
+    margin: 0.5em 0 0.5em 0;
+}
+.mainFooter {
+    margin: 5em 0 0 0;
+}
+.footer1 p{
+    margin: 1.5em 0 1.5em 0;
+}
+.footer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    min-height: 15em;
+    column-gap: 4em;
+    row-gap: 0;
+}
+.About, .NFT, .Contact, .Social{
+    min-width: 5em;
+}
+.footer2 h4 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+footer li {
+    margin: 0.2em 0 0.2em 0;
+}
+.copyright {
+    color: gray;
+    font-size: 14px;
+    word-spacing: 8px;
+    padding: 1em 0 5em 2em; 
+}
+.launchDate {
+    display: none;
+    color: gray;
+    font-size: 14px;
+    word-spacing: 8px;
+    padding: 1em 0 5em 2em; 
+}
+
+
+@media only screen and (min-width: 600px) {
+    header ul {
+        display: flex;
+    }
+    .bi-list {
+        display: none;
+    }
+    .graphic {
+        position: relative;
+        left: 0em;
+        bottom: 0em;
+    }
+    nav h1 {
+        font-size: 70px;
+        font-weight: bolder;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    main{
+        max-width: 88vw;
+        margin: 0 auto;
+    }
+    .main-container{
+        max-width: 85vw;
+        border: 1 solid;
+        border-radius: 1.5em;
+    }
+    .OpenDoor {
+        display: flex;
+    }
+    .logoContainer {
+        flex-direction: row;
+        gap: 7em;
+        padding-left: 0;
+    }
+    .companies1, .companies2 {
+        gap: 7em;
+    }
+    .market {
+        padding-left: 0;
+    }
+    .upsell {
+        padding-left: 0;
+        max-width: 87vw;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 87w;
+        margin: 0 2.5em 0 2.5em;
+    }
+    .mainFooter {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .footer2 {
+        padding-top: 4em;
+    }
+    .launchDate{
+        display: flex;
+    }
+    aside {
+        display: flex;
+        justify-content: space-between;
+        max-width: 90vw;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+
+    }
+}
